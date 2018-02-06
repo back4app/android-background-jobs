@@ -14,14 +14,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Parse.initialize(this);
-        ArrayList<String> channels = new ArrayList<>();
-        channels.add("News");
-        ParseInstallation installation = ParseInstallation.getCurrentInstallation();
-        // don't forget to change the line below with the sender ID you obtained at Firebase
-        installation.put("GCMSenderId", "YOUR_FIREBASE_GCM_SENDER_ID_HERE");
-        installation.put("channels", channels);
-        installation.saveInBackground();
     }
 }
