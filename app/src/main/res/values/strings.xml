@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Background Jobs Example</string>
-    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
-
-    <!-- Change the following strings as required -->
-    <string name="back4app_app_id">lNW09Tf3hWaJ2VJs8r965LorK8uCsfH2BRXqEi6Q</string>
-    <string name="back4app_client_key">R4o00GOercWug8HjoOj7o6hVe3183PmMbhj7yRBD</string>
-</resources>
